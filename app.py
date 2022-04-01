@@ -69,8 +69,8 @@ characters_schema = CharacterSchema(many = True)
 def homepage():
     return "string"
 
-@app.route("/battles")
-def attack_time():
+# @app.route("/battles")
+# def attack_time():
     # enemies = db.session.query(Enemy().all)
 
     # return jsonify(enemies_schema.dump(enemies))
