@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS, cross_origin
 import psycopg2
 import os
-
+# sad
 
 app = Flask(__name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
