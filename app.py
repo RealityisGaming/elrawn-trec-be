@@ -71,9 +71,9 @@ def homepage():
 
 @app.route("/battles")
 def attack_time():
-    enemies = db.session.query(Enemy().all)
+    # enemies = db.session.query(Enemy().all)
 
-    return jsonify(enemies_schema.dump(enemies))
+    # return jsonify(enemies_schema.dump(enemies))
 
 # @app.route("/enemy", methods = ["POST"])
 # def enemies():
